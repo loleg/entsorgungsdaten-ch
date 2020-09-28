@@ -2,8 +2,8 @@
   "profile": "tabular-data-package",
   "resources": [
     {
-      "name": "resource1",
-      "path": "100021.csv",
+      "name": "Basel",
+      "path": "data/stadt_basel.csv",
       "profile": "tabular-data-resource",
       "schema": {
         "fields": [
@@ -38,7 +38,7 @@
             "type": "string",
             "format": "default",
             "title": "Firmenname",
-            "description": "Beschreibt der Besitzer dieser Entsorgungsstelle"
+            "description": "Beschreibt der Betrieber dieser Entsorgungsstelle"
           },
           {
             "name": "beschreibu",
@@ -82,18 +82,327 @@
           }
         ]
       }
+    },
+    {
+      "name": "Zürich Sammelstelle",
+      "path": "data/stadt_zuerich_sammelstelle.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "adr_inter",
+            "type": "any",
+            "format": "default"
+          },
+          {
+            "name": "adresse",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "adrzus_int",
+            "type": "any",
+            "format": "default"
+          },
+          {
+            "name": "behindertenparkplatz",
+            "type": "any",
+            "format": "default"
+          },
+          {
+            "name": "bemerkung",
+            "type": "any",
+            "format": "default"
+          },
+          {
+            "name": "ccmail",
+            "type": "any",
+            "format": "default"
+          },
+          {
+            "name": "da",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "datum",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "datum_cms",
+            "type": "any",
+            "format": "default"
+          },
+          {
+            "name": "dep",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "editor",
+            "type": "any",
+            "format": "default"
+          },
+          {
+            "name": "erforderlichedokumente",
+            "type": "any",
+            "format": "default"
+          },
+          {
+            "name": "fax",
+            "type": "any",
+            "format": "default"
+          },
+          {
+            "name": "hausnummer",
+            "type": "any",
+            "format": "default"
+          },
+          {
+            "name": "hindernisfreiheit",
+            "type": "any",
+            "format": "default"
+          },
+          {
+            "name": "infrastruktur",
+            "type": "any",
+            "format": "default"
+          },
+          {
+            "name": "isbetriebsferien_gebaeude",
+            "type": "any",
+            "format": "default"
+          },
+          {
+            "name": "isbetriebsferien_schalter",
+            "type": "any",
+            "format": "default"
+          },
+          {
+            "name": "kategorie",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "mail",
+            "type": "any",
+            "format": "default"
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "namenzus",
+            "type": "any",
+            "format": "default"
+          },
+          {
+            "name": "objectid",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "oeffnungszeiten_gebaeude_di",
+            "type": "any",
+            "format": "default"
+          },
+          {
+            "name": "oeffnungszeiten_gebaeude_do",
+            "type": "any",
+            "format": "default"
+          },
+          {
+            "name": "oeffnungszeiten_gebaeude_fr",
+            "type": "any",
+            "format": "default"
+          },
+          {
+            "name": "oeffnungszeiten_gebaeude_mi",
+            "type": "any",
+            "format": "default"
+          },
+          {
+            "name": "oeffnungszeiten_gebaeude_mo",
+            "type": "any",
+            "format": "default"
+          },
+          {
+            "name": "oeffnungszeiten_gebaeude_sa",
+            "type": "any",
+            "format": "default"
+          },
+          {
+            "name": "oeffnungszeiten_gebaeude_so",
+            "type": "any",
+            "format": "default"
+          },
+          {
+            "name": "oeffnungszeiten_schalter_di",
+            "type": "any",
+            "format": "default"
+          },
+          {
+            "name": "oeffnungszeiten_schalter_do",
+            "type": "any",
+            "format": "default"
+          },
+          {
+            "name": "oeffnungszeiten_schalter_fr",
+            "type": "any",
+            "format": "default"
+          },
+          {
+            "name": "oeffnungszeiten_schalter_mi",
+            "type": "any",
+            "format": "default"
+          },
+          {
+            "name": "oeffnungszeiten_schalter_mo",
+            "type": "any",
+            "format": "default"
+          },
+          {
+            "name": "oeffnungszeiten_schalter_sa",
+            "type": "any",
+            "format": "default"
+          },
+          {
+            "name": "oeffnungszeiten_schalter_so",
+            "type": "any",
+            "format": "default"
+          },
+          {
+            "name": "ort",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "plz",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "poi_id",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "postadresse",
+            "type": "any",
+            "format": "default"
+          },
+          {
+            "name": "publish_internet",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "strasse",
+            "type": "any",
+            "format": "default"
+          },
+          {
+            "name": "suchen",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "tel",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "tel2",
+            "type": "any",
+            "format": "default"
+          },
+          {
+            "name": "www",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "zahlungsmittel_internet",
+            "type": "any",
+            "format": "default"
+          },
+          {
+            "name": "zahlungsmittel_schalter",
+            "type": "any",
+            "format": "default"
+          },
+          {
+            "name": "zahlungsmittel_telefon",
+            "type": "any",
+            "format": "default"
+          },
+          {
+            "name": "zvv_label",
+            "type": "any",
+            "format": "default"
+          },
+          {
+            "name": "zvv_link",
+            "type": "any",
+            "format": "default"
+          },
+          {
+            "name": "metall",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "glas",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "oel",
+            "type": "any",
+            "format": "default"
+          },
+          {
+            "name": "standort_id",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "behindertengerecht",
+            "type": "any",
+            "format": "default"
+          },
+          {
+            "name": "geometry",
+            "type": "string",
+            "format": "default"
+          }
+        ]
+      }
     }
   ],
   "keywords": [
     "gemeinden"
   ],
   "name": "entsorgungsstellen-ch",
-  "description": "Basierend auf die Stadt Basel Open Data",
-  "title": "Entsorgungsstellen Schweiz",
+  "description": "Locations of waste collection and recycling stations in Switzerland",
+  "title": "Entsorgungsstellen in der Schweiz",
   "licenses": [
     {
-      "title": "Opendata.swiss By",
+      "title": "Opendata.swiss BY",
       "path": "https://opendata.swiss/en/terms-of-use/#terms_by"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Stadt Zürich",
+      "path": "https://data.stadt-zuerich.ch/dataset/geo_sammelstelle"
+    },
+    {
+      "title": "Fachstelle für OGD Basel-Stadt",
+      "path": "https://opendata.swiss/en/dataset/entsorgungsstellen"
     }
   ]
 }
