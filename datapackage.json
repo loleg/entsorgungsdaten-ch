@@ -1,32 +1,99 @@
 {
-  "name": "datapackage-boilerplate",
-  "title": "A Boilerplate Data Package",
-  "format": "csv",
-  "datapackage_version": "1.0.0",
-  "last_modified": "2018-01-01",
-  "licenses": [{
-    "name": "ODC-PDDL-1.0",
-    "path": "http://opendatacommons.org/licenses/pddl/",
-    "title": "Open Data Commons Public Domain Dedication and License v1.0"
-  }],
-  "sources": [
-    {
-      "name": "Sample Data Source",
-      "web": "http://www..."
-    }
-  ],
+  "profile": "tabular-data-package",
   "resources": [
     {
-      "path": "data/some-good-data.csv",
+      "name": "resource1",
+      "path": "100021.csv",
+      "profile": "tabular-data-resource",
       "schema": {
-        "fields": []
+        "fields": [
+          {
+            "name": "geo_point_2d",
+            "type": "geopoint",
+            "format": "default",
+            "title": "WTS84"
+          },
+          {
+            "name": "geo_shape",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "objid",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "id_entsorg",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "kategorie",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "format": "default",
+            "title": "Firmenname",
+            "description": "Beschreibt der Besitzer dieser Entsorgungsstelle"
+          },
+          {
+            "name": "beschreibu",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "adresse",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "plz",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "ortschaft",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "telefon",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "www_link",
+            "type": "any",
+            "format": "default"
+          },
+          {
+            "name": "oeffnungsz",
+            "type": "any",
+            "format": "default"
+          },
+          {
+            "name": "zustaendig",
+            "type": "string",
+            "format": "default"
+          }
+        ]
       }
-    },{
-      "path": "data/the-raw-data.xls"
     }
   ],
-  "maintainers":[{
-    "name": "School of Data CH",
-    "web": "https://www.schoolofdata.ch/"
-  }]
+  "keywords": [
+    "gemeinden"
+  ],
+  "name": "entsorgungsstellen-ch",
+  "description": "Basierend auf die Stadt Basel Open Data",
+  "title": "Entsorgungsstellen Schweiz",
+  "licenses": [
+    {
+      "title": "Opendata.swiss By",
+      "path": "https://opendata.swiss/en/terms-of-use/#terms_by"
+    }
+  ]
 }
