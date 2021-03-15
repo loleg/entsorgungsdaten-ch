@@ -2,7 +2,7 @@
   "profile": "tabular-data-package",
   "resources": [
     {
-      "name": "Basel",
+      "name": "basel",
       "path": "data/stadt_basel.csv",
       "profile": "tabular-data-resource",
       "schema": {
@@ -84,7 +84,7 @@
       }
     },
     {
-      "name": "Zürich Sammelstelle",
+      "name": "zuerich",
       "path": "data/stadt_zuerich_sammelstelle.csv",
       "profile": "tabular-data-resource",
       "schema": {
@@ -126,7 +126,7 @@
           },
           {
             "name": "datum",
-            "type": "integer",
+            "type": "any",
             "format": "default"
           },
           {
@@ -311,7 +311,7 @@
           },
           {
             "name": "tel",
-            "type": "integer",
+            "type": "any",
             "format": "default"
           },
           {
